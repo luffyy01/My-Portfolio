@@ -45,9 +45,9 @@ Whether you're a potential employer, collaborator, or fellow coder, explore my p
 
 ## 🔗 Connect With Me
 - **Email**: [mitjain70@gmail.com](mailto:mitjain70@gmail.com)
-- **GitHub**: [github.com/yourusername](https://github.com/luffyy01)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://www.linkedin.com/in/mit-jain-74aaa52a3/)
-- **Codeforces**: [codeforces.com/profile/yourusername](https://codeforces.com/profile/luffyy01)
+- **GitHub**: [https://github.com/luffyy01](https://github.com/luffyy01)
+- **LinkedIn**: [https://www.linkedin.com/in/mit-jain-74aaa52a3/](https://www.linkedin.com/in/mit-jain-74aaa52a3/)
+- **Codeforces**: [https://codeforces.com/profile/luffyy01](https://codeforces.com/profile/luffyy01)
 
 
 
