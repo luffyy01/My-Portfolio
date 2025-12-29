@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit Jain | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Plus+Jakarta+Sans:wght@300;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="bg-grid"></div>
+    <div class="orb-1"></div>
+    <div class="orb-2"></div>
+
+    <nav>
+        <div class="logo-area">
+            <img 
+                style="object-fit: cover; object-position: center 80%; image-rendering: auto; transform: translateZ(0);" 
+                src="https://i.pinimg.com/736x/bc/93/ab/bc93ab71349e3ce2031ef959062da790.jpg" 
+                alt="Mit Jain" 
+                class="logo-img"
+            >
+            <div class="logo-text">Mit Jain</div>
+        </div>
+
+        <div class="nav-links">
+            <button class="nav-btn active" data-page="overview">Overview</button>
+            <button class="nav-btn" data-page="repos">Repositories</button>
+            <button class="nav-btn" data-page="skills">Skills</button>
+            <button class="nav-btn" data-page="experience">Experience</button>
+            <button class="nav-btn" data-page="contact">Contact</button>
+        </div>
+
+        <a href="resume.pdf" download class="resume-btn">
+            <span>Download Resume</span>
+        </a>
+
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="nav-btn" data-page="overview">Overview</button>
+        <button class="nav-btn" data-page="repos">Repositories</button>
+        <button class="nav-btn" data-page="skills">Skills</button>
+        <button class="nav-btn" data-page="experience">Experience</button>
+        <button class="nav-btn" data-page="contact">Contact</button>
+    </div>
+
+    <main>
+        <section id="overview" class="page-section active">
+            <div class="section-grid-overlay"></div>
+            <div class="overview-layout">
+                <div class="card intro-card">
+                    <span class="intro-pre">> HELLO_WORLD</span>
+                    <h1 class="intro-head">Curious<br>Innovator</h1>
+                    <p class="intro-desc">
+                        The kind of person who loves problem solving and doing innovation.
+                        I combine competitive algorithmic skills with full-stack engineering to build scalable systems.
+                    </p>
+
+                    <div class="roles-list">
+                        <span class="role-item">Full-Stack Developer</span>
+                        <span class="role-item">AI/ML Enthusiast</span>
+                        <span class="role-item">Competitive Programmer</span>
+                    </div>
+
+                    <div class="quick-connect">
+                        <a href="mailto:mitjain70@gmail.com" class="qc-item">mitjain70@gmail.com</a>
+                        <a href="https://github.com/yourusername" class="qc-item">GitHub</a>
+                        <a href="https://linkedin.com/in/yourusername" class="qc-item">LinkedIn</a>
+                        <a href="https://codeforces.com/profile/yourusername" class="qc-item">Codeforces</a>
+                    </div>
+                </div>
+
+                <div class="card skills-mini-card">
+                    <h3 style="font-size: 1rem; color: var(--text-sub); margin-bottom: 15px; font-family: var(--font-code);">// TOP SKILLS</h3>
+                    <div>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JS</span>
+                    </div>
+                </div>
+
+                <div class="card status-widget">
+                    <div class="status-indicator">
+                        <div class="dot"></div>
+                        <span style="color: var(--success); font-weight: 600; font-size: 0.9rem;">Available</span>
+                    </div>
+                    <span style="color: var(--text-sub); font-size: 0.9rem;">SOLVING PROBLEMS</span>
+                </div>
+
+                <div class="metrics-card">
+                    <div class="metric">
+                        <span class="metric-value">4+</span>
+                        <span class="metric-label">Projects</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-value">1000</span>
+                        <span class="metric-label">Codeforces Rating</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="repos" class="page-section">
+            <div class="section-grid-overlay"></div>
+            <h2 class="section-head">Selected Repositories</h2>
+            <div class="repo-grid">
+                <div class="card">
+                    <svg class="repo-icon" viewBox="0 0 24 24">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <h3 class="repo-title">Anime-Recommendation</h3>
+                    <p class="repo-desc">A web-based anime recommendation system built with HTML, CSS, and a bit of JS.</p>
+                    <div class="tech-stack">
+                        <span class="tech-pill">HTML</span>
+                        <span class="tech-pill">CSS</span>
+                        <span class="tech-pill">JS</span>
+                    </div>
+                    <div class="repo-actions">
+                        <a target="_blank" href="https://anime-recommendation-1.vercel.app/" class="act-btn act-demo">View Demo</a>
+                        <a target="_blank" href="https://github.com/luffyy01/Anime_Recommendation" class="act-btn act-code">View Code</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <svg class="repo-icon" viewBox="0 0 24 24">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <h3 class="repo-title">Balanced Bites</h3>
+                    <p class="repo-desc">Full-stack e-commerce for my premium chocolate brand.</p>
+                    <div class="tech-stack">
+                        <span class="tech-pill">HTML</span>
+                        <span class="tech-pill">CSS</span>
+                        <span class="tech-pill">JS</span>
+                    </div>
+                    <div class="repo-actions">
+                        <a href="#" target="_blank" class="act-btn act-demo">View Demo</a>
+                        <a href="#" target="_blank" class="act-btn act-code">View Code</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <svg class="repo-icon" viewBox="0 0 24 24">
+                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <h3 class="repo-title">My Portfolio</h3>
+                    <p class="repo-desc">High-performance SPA architecture with vanilla JS.</p>
+                    <div class="tech-stack">
+                        <span class="tech-pill">HTML</span>
+                        <span class="tech-pill">CSS</span>
+                        <span class="tech-pill">JS</span>
+                    </div>
+                    <div class="repo-actions">
+                        <a href="#" target="_blank" class="act-btn act-demo">View Demo</a>
+                        <a href="#" target="_blank" class="act-btn act-code">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="page-section">
+            <div class="section-grid-overlay"></div>
+
+            <h2 class="section-head">Technical Arsenal</h2>
+            <div class="skills-layout">
+                <div class="skill-group">
+                    <div class="sg-title">// LANGUAGES</div>
+                    <div class="sg-list">
+                        <span class="sg-item">C++ (STL)</span>
+                        <span class="sg-item">JavaScript (ES6+)</span>
+                        <span class="sg-item">Python</span>
+                        <span class="sg-item">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="sg-title">// FRAMEWORKS</div>
+                    <div class="sg-list">
+                        <span class="sg-item">React.js</span>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <div class="sg-title">// TOOLS</div>
+                    <div class="sg-list">
+                        <span class="sg-item">Git & GitHub</span>
+                        <span class="sg-item">VS Code</span>
+                        <span class="sg-item">Figma</span>
+                        <span class="sg-item">Vercel</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-head">Certified</h2>
+            <div class="cert-list">
+                <div class="cert-item">
+                    <h3 class="cert-title">Introduction to Engineering Mechanics</h3>
+                    <div class="cert-issuer">Georgia Institute of Technology</div>
+                    <div class="cert-date">March 2025</div>
+                    <p class="cert-desc">Fundamentals of engineering mechanics including forces, moments, and equilibrium</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/0LTNERHHBYJ5" class="cert-link" target="_blank">View Certificate</a>
+                </div>
+                <div class="cert-item">
+                    <h3 class="cert-title">How Things Work: An Introduction to Physics</h3>
+                    <div class="cert-issuer">University of Virginia</div>
+                    <div class="cert-date">February 2025</div>
+                    <p class="cert-desc">Basic principles of physics applied to everyday objects and phenomena</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/P04IW5UCQUL2" class="cert-link" target="_blank">View Certificate</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="page-section">
+            <div class="section-grid-overlay"></div>
+            <h2 class="section-head">Professional Path</h2>
+            <div class="exp-grid">
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <span class="exp-role">Developer</span>
+                        <span class="exp-date">2025</span>
+                    </div>
+                    <span class="exp-company">@ Balanced Bites</span>
+                    <p class="exp-detail">
+                        Bootstrapped a premium homemade chocolate brand. Engineered the complete digital presence and e-commerce flow using modern web technologies. Managed branding, product design, and customer acquisition.
+                    </p>
+                </div>
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <span class="exp-role">Competitive Programmer</span>
+                        <span class="exp-date">2025</span>
+                    </div>
+                    <span class="exp-company">@ CodeForces / LeetCode</span>
+                    <p class="exp-detail">
+                        Achieved a max rating of 1000 on CodeForces. Solved 300+ algorithmic problems across LeetCode, CodeChef, and AtCoder. Focused on mastering Data Structures (Trees, Graphs, DP) and optimizing time complexity.
+                    </p>
+                </div>
+
+                <div class="exp-card">
+                    <div class="exp-top">
+                        <span class="exp-role">Computer Science Student</span>
+                        <span class="exp-date">2025</span>
+                    </div>
+                    <span class="exp-company">@ University</span>
+                    <p class="exp-detail">
+                        First-year undergraduate. Building a strong foundation in Object-Oriented Programming, Database Management Systems, and System Architecture.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page-section">
+            <div class="section-grid-overlay"></div>
+            <div class="contact-layout">
+                <span class="contact-pre">THE NEXT STEP</span>
+                <h1 class="contact-big">Let's connect</h1>
+
+                <div class="contact-inline">
+                    <a href="mailto:mitjain70@gmail.com" class="c-item c-email">mitjain70@gmail.com</a>
+                    <div class="c-sep"></div>
+                   <a href="https://twitter.com/yourusername" class="c-item">Codeforces</a>
+                    
+                    <div class="c-sep"></div>
+                    <a href="https://www.linkedin.com/in/mit-jain-74aaa52a3/" class="c-item">LinkedIn</a>
+                    <div class="c-sep"></div>
+                    <a href="https://github.com/luffyy01" class="c-item">GitHub</a>
+                    <div class="c-sep"></div>
+                    <a href="#" class="c-item">CodeChef</a>
+                    <div class="c-sep"></div>
+                    <a href="#" class="c-item">LeetCode</a>
+                    <!-- <a href="#" class="c-item">Atcoder</a> -->
+                </div>
+
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        MADE BY MIT JAIN © 2025
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
