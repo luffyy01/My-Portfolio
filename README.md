@@ -40,28 +40,6 @@ Whether you're a potential employer, collaborator, or fellow coder, explore my p
 
 
 
-## 🚀 Getting Started
-
-### Prerequisites
-- A modern web browser (Chrome, Firefox, Safari).
-- Optional: Git for cloning the repo.
-
-### Local Setup
-1. Clone the repository:
-git clone https://github.com/yourusername/My-Portfolio.git
-cd My-Portfolio
-2. Open `index.html` in your browser:
-- Double-click the file, or use a local server like Live Server in VS Code.
-3. Customize:
-- Update links (e.g., GitHub, LinkedIn) in `index.html`.
-- Replace `resume.pdf` with your actual resume file.
-- Tweak colors/variables in `styles.css` (e.g., `--primary: #8b5cf6`).
-
-### Deployment
-- **GitHub Pages**: Push to a repo named `yourusername.github.io`—auto-deploys!
-- **Vercel**: Connect your GitHub repo for instant previews and global CDN.
-- **Netlify**: Drag-and-drop the folder for one-click hosting.
-- Custom Domain: Add via platform settings (free HTTPS included).
 
 
 
@@ -72,7 +50,7 @@ cd My-Portfolio
 - **Codeforces**: [codeforces.com/profile/yourusername](https://codeforces.com/profile/luffyy01)
 
 
-Feel free to fork, star, or open an issue!
+
 
 ## 📝 License
 This project is open-source under the MIT License.
