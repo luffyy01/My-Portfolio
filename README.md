@@ -48,8 +48,8 @@ Whether you're a potential employer, collaborator, or fellow coder, explore my p
 
 ### Local Setup
 1. Clone the repository:
-git clone https://github.com/yourusername/mit-jain-portfolio.git
-cd mit-jain-portfolio
+git clone https://github.com/yourusername/My-Portfolio.git
+cd My-Portfolio
 2. Open `index.html` in your browser:
 - Double-click the file, or use a local server like Live Server in VS Code.
 3. Customize:
