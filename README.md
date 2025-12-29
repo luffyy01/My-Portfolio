@@ -1,7 +1,7 @@
 # Mit Jain's Portfolio
 
-![Portfolio Preview]<img width="1500" height="848" alt="Screenshot 2025-12-29 at 6 24 40 PM" src="https://github.com/user-attachments/assets/2b0013ea-06d4-4b24-a981-08505636ed4f" />
-<!-- Replace with actual screenshot URL if available -->
+<img width="1500" height="848" alt="Screenshot 2025-12-29 at 6 24 40 PM" src="https://github.com/user-attachments/assets/2b0013ea-06d4-4b24-a981-08505636ed4f" />
+
 
 ## 🚀 Overview
 
@@ -38,13 +38,7 @@ Whether you're a potential employer, collaborator, or fellow coder, explore my p
 | **Tools**     | Git/GitHub, VS Code, Figma (design), Vercel/Netlify (hosting) |
 | **Other**     | SVG icons, radial gradients, backdrop filters |
 
-## 📱 Screenshots
 
-### Desktop View
-![Desktop Overview](https://via.placeholder.com/800x400/050505/8b5cf6?text=Desktop+Overview) <!-- Add real screenshots -->
-
-### Mobile View
-![Mobile Navigation](https://via.placeholder.com/400x800/050505/06b6d4?text=Mobile+View) <!-- Add real screenshots -->
 
 ## 🚀 Getting Started
 
@@ -69,20 +63,19 @@ cd mit-jain-portfolio
 - **Netlify**: Drag-and-drop the folder for one-click hosting.
 - Custom Domain: Add via platform settings (free HTTPS included).
 
-## 📄 Resume
-Download my resume [here](resume.pdf) or click the button in the nav!
+
 
 ## 🔗 Connect With Me
 - **Email**: [mitjain70@gmail.com](mailto:mitjain70@gmail.com)
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn**: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- **Codeforces**: [codeforces.com/profile/yourusername](https://codeforces.com/profile/yourusername)
-- **X (Twitter)**: [@yourusername](https://twitter.com/yourusername)
+- **GitHub**: [github.com/yourusername](https://github.com/luffyy01)
+- **LinkedIn**: [linkedin.com/in/yourusername](https://www.linkedin.com/in/mit-jain-74aaa52a3/)
+- **Codeforces**: [codeforces.com/profile/yourusername](https://codeforces.com/profile/luffyy01)
+
 
 Feel free to fork, star, or open an issue!
 
 ## 📝 License
-This project is open-source under the MIT License. See [LICENSE](LICENSE) for details (create one if needed).
+This project is open-source under the MIT License.
 
 ## 🙌 Acknowledgments
 - Fonts: Google Fonts (JetBrains Mono & Plus Jakarta Sans).
@@ -92,4 +85,4 @@ This project is open-source under the MIT License. See [LICENSE](LICENSE) for de
 ---
 
 *Last updated: December 29, 2025*  
-[Live Demo](https://yourusername.github.io) <!-- Update with your live URL -->
+[Live Demo](https://mitjain.vercel.app/) 
