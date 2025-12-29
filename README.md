@@ -1,6 +1,7 @@
 # Mit Jain's Portfolio
 
-![Portfolio Preview](https://via.placeholder.com/1200x600/050505/ffffff?text=Mit+Jain+Portfolio) <!-- Replace with actual screenshot URL if available -->
+![Portfolio Preview]<img width="1500" height="848" alt="Screenshot 2025-12-29 at 6 24 40 PM" src="https://github.com/user-attachments/assets/2b0013ea-06d4-4b24-a981-08505636ed4f" />
+<!-- Replace with actual screenshot URL if available -->
 
 ## 🚀 Overview
 
