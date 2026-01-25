@@ -11,7 +11,7 @@ Whether you're a potential employer, collaborator, or fellow coder, explore my p
 
 ### Quick Stats
 - **Projects**: 4+ hands-on builds
-- **Codeforces Rating**: 1000+
+- **Codeforces Rating**: 1200+
 - **Status**: Available for opportunities
 
 ## ✨ Features
