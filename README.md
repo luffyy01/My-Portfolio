@@ -1,6 +1,8 @@
 # Mit Jain---> Portfolio
+<img width="1503" height="857" alt="Screenshot 2026-01-30 at 1 26 39 PM" src="https://github.com/user-attachments/assets/bc045c10-49d3-402e-8fd3-3333b781579c" />
 
-<img width="1500" height="848" alt="Screenshot 2025-12-29 at 6 24 40 PM" src="https://github.com/user-attachments/assets/2b0013ea-06d4-4b24-a981-08505636ed4f" />
+<!-- <img width="1500" height="848" alt="Screenshot 2025-12-29 at 6 24 40 PM" src="https://github.com/user-attachments/assets/2b0013ea-06d4-4b24-a981-08505636ed4f" /> -->
+
 
 
 ## 🚀 Overview
