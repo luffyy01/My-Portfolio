@@ -10,8 +10,8 @@ Welcome to my personal portfolio website! This is a sleek, modern single-page ap
 Whether you're a potential employer, collaborator, or fellow coder, explore my projects, skills, experience, and certifications right here. Let's connect and build something awesome!
 
 ### Quick Stats
-- **Projects**: 4+ builds
-- **Codeforces Rating**: 1200+
+- **Projects**: 2+ builds
+- **Codeforces Rating**: 1246+
 - **Status**: Available for opportunities
 
 ## ✨ Features
