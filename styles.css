@@ -194,7 +194,19 @@ nav.scrolled {
     border: 1px solid var(--border);
     backdrop-filter: blur(10px);
 }
+.cp-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255,255,255,0.1);
+}
 
+.cp-link:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--accent);
+    color: var(--accent);
+}
 .nav-btn {
     background: transparent;
     border: none;
