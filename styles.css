@@ -32,6 +32,41 @@ body {
     display: flex;
     flex-direction: column;
 }
+.dark-patch {
+    position: fixed;
+    border-radius: 50%;
+    z-index: -1;
+    filter: blur(130px);
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.dark-patch-1 {
+    top: 10%;
+    left: 25%;
+    width: 45vw;
+    height: 45vw;
+    background: radial-gradient(circle, rgba(10, 0, 40, 0.3), transparent 60%);
+    animation: float 22s infinite ease-in-out alternate;
+}
+
+.dark-patch-2 {
+    bottom: 5%;
+    right: 15%;
+    width: 55vw;
+    height: 55vw;
+    background: radial-gradient(circle, rgba(0, 15, 50, 0.25), transparent 60%);
+    animation: float 28s infinite ease-in-out alternate-reverse;
+}
+
+.dark-patch-3 {
+    top: 50%;
+    left: -15%;
+    width: 40vw;
+    height: 40vw;
+    background: radial-gradient(circle, rgba(25, 5, 35, 0.2), transparent 60%);
+    animation: float 25s infinite ease-in-out alternate;
+}
 
 .scroll-progress {
     position: fixed;
