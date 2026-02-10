@@ -272,12 +272,17 @@
                     <a href="https://codeforces.com/profile/luffyy01" class="c-item">Codeforces</a>
                 </div>
 
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea rows="5" placeholder="Your Message" required></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
+                <form class="contact-form" id="contact-form">
+    <input type="hidden" name="access_key" value="f84e328c-8226-45bb-8177-fcc055ea250b">
+    <input type="checkbox" name="botcheck" style="display: none;">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+    <button type="submit">Send Message</button>
+    <p id="result" style="margin-top: 15px; font-size: 0.9rem; text-align: center; display: none;"></p>
+</form>
             </div>
         </section>
     </main>
