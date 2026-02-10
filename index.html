@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="scroll-progress"></div>
     <div class="noise"></div>
     <div class="bg-grid"></div>
     <div class="orb-1"></div>
@@ -15,12 +16,7 @@
 
     <nav>
         <div class="logo-area">
-            <img 
-                style="object-fit: cover; object-position: center 80%; image-rendering: auto; transform: translateZ(0);" 
-                src="https://i.pinimg.com/736x/bc/93/ab/bc93ab71349e3ce2031ef959062da790.jpg" 
-                alt="Mit Jain" 
-                class="logo-img"
-            >
+            <img style="object-fit: cover; object-position: center 80%;" src="https://i.pinimg.com/736x/bc/93/ab/bc93ab71349e3ce2031ef959062da790.jpg" alt="Mit Jain" class="logo-img">
             <div class="logo-text">Mit Jain</div>
         </div>
 
@@ -55,7 +51,7 @@
         <section id="overview" class="page-section active">
             <div class="section-grid-overlay"></div>
             <div class="overview-layout">
-                <div class="card intro-card">
+                <div class="card intro-card hover-3d">
                     <span class="intro-pre">> HELLO_WORLD</span>
                     <h1 class="intro-head">Curious<br>Innovator</h1>
                     <p class="intro-desc">
@@ -77,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="card skills-mini-card">
+                <div class="card skills-mini-card hover-3d">
                     <h3 style="font-size: 1rem; color: var(--text-sub); margin-bottom: 15px; font-family: var(--font-code);">// TOP SKILLS</h3>
                     <div>
                         <span class="skill-tag">C++</span>
@@ -87,7 +83,7 @@
                     </div>
                 </div>
 
-                <div class="card status-widget">
+                <div class="card status-widget hover-3d">
                     <div class="status-indicator">
                         <div class="dot"></div>
                         <span style="color: var(--success); font-weight: 600; font-size: 0.9rem;">Available</span>
@@ -95,7 +91,7 @@
                     <span style="color: var(--text-sub); font-size: 0.9rem;">SOLVING PROBLEMS</span>
                 </div>
 
-                <div class="metrics-card">
+                <div class="metrics-card hover-3d">
                     <div class="metric">
                         <span class="metric-value">2+</span>
                         <span class="metric-label">Projects</span>
@@ -112,7 +108,7 @@
             <div class="section-grid-overlay"></div>
             <h2 class="section-head">Selected Repositories</h2>
             <div class="repo-grid">
-                <div class="card">
+                <div class="card hover-3d">
                     <svg class="repo-icon" viewBox="0 0 24 24">
                         <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
                     </svg>
@@ -129,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card hover-3d">
                     <svg class="repo-icon" viewBox="0 0 24 24">
                         <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
                     </svg>
@@ -146,7 +142,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card hover-3d">
                     <svg class="repo-icon" viewBox="0 0 24 24">
                         <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
                     </svg>
@@ -165,12 +161,12 @@
             </div>
         </section>
 
-       <section id="skills" class="page-section">
+        <section id="skills" class="page-section">
             <div class="section-grid-overlay"></div>
 
             <h2 class="section-head">Technical Arsenal</h2>
             <div class="skills-layout">
-                <div class="skill-group">
+                <div class="skill-group hover-3d">
                     <div class="sg-title">// LANGUAGES</div>
                     <div class="sg-list">
                         <span class="sg-item">C++ (STL)</span>
@@ -179,14 +175,14 @@
                         <span class="sg-item">HTML/CSS</span>
                     </div>
                 </div>
-                <div class="skill-group">
+                <div class="skill-group hover-3d">
                     <div class="sg-title">// FRAMEWORKS</div>
                     <div class="sg-list">
                         <span class="sg-item">React.js</span>
                         <span class="sg-item">Node.js</span>
                     </div>
                 </div>
-                <div class="skill-group">
+                <div class="skill-group hover-3d">
                     <div class="sg-title">// TOOLS</div>
                     <div class="sg-list">
                         <span class="sg-item">Git & GitHub</span>
@@ -196,10 +192,10 @@
                     </div>
                 </div>
                 
-                <div class="skill-group" style="grid-column: 1 / -1; width: 100%;">
-                    <div class="sg-title">// CP PROFILES </div>
-                    <div class="sg-list" style="display: flex; flex-wrap: wrap; gap: 10px;">
-                         <a href="https://leetcode.com/u/luffyy01/" target="_blank" class="sg-item cp-link" >LeetCode</a>
+                <div class="skill-group hover-3d" style="grid-column: 1 / -1; width: 100%; margin-top: 20px;">
+                    <div class="sg-title">// CP PROFILES (Click to view)</div>
+                    <div class="sg-list" style="display: flex; flex-wrap: wrap; gap: 15px;">
+                         <a href="https://leetcode.com/u/luffyy01/" target="_blank" class="sg-item cp-link">LeetCode</a>
                          <a href="https://www.codechef.com/users/luffyy01" target="_blank" class="sg-item cp-link">CodeChef</a>
                          <a href="https://atcoder.jp/users/luffyy01" target="_blank" class="sg-item cp-link">AtCoder</a>
                          <a href="https://codeforces.com/profile/luffyy01" target="_blank" class="sg-item cp-link">Codeforces</a>
@@ -208,20 +204,16 @@
                          <a href="https://my.newtonschool.co/user/luffyy01" target="_blank" class="sg-item cp-link">Newton School</a>
                          <a href="https://projecteuler.net/account" target="_blank" class="sg-item cp-link">Project Euler</a>
                          <a href="https://github.com/luffyy01/usaco-guide" target="_blank" class="sg-item cp-link">USACO Guide</a>
-                         </div>
+                    </div>
                 </div>
             </div>
-
-            <h2 class="section-head">Certified</h2>
-            <div class="cert-list">
-               </div>
         </section>
-          
+
         <section id="experience" class="page-section">
             <div class="section-grid-overlay"></div>
             <h2 class="section-head">Professional Path</h2>
             <div class="exp-grid">
-                <div class="exp-card">
+                <div class="exp-card hover-3d">
                     <div class="exp-top">
                         <span class="exp-role">Developer</span>
                         <span class="exp-date">2025</span>
@@ -232,7 +224,7 @@
                     </p>
                 </div>
 
-                <div class="exp-card">
+                <div class="exp-card hover-3d">
                     <div class="exp-top">
                         <span class="exp-role">Competitive Programmer</span>
                         <span class="exp-date">2025</span>
@@ -243,7 +235,7 @@
                     </p>
                 </div>
 
-                <div class="exp-card">
+                <div class="exp-card hover-3d">
                     <div class="exp-top">
                         <span class="exp-role">Computer Science Student</span>
                         <span class="exp-date">2025</span>
@@ -273,16 +265,16 @@
                 </div>
 
                 <form class="contact-form" id="contact-form">
-    <input type="hidden" name="access_key" value="f84e328c-8226-45bb-8177-fcc055ea250b">
-    <input type="checkbox" name="botcheck" style="display: none;">
+                    <input type="hidden" name="access_key" value="f84e328c-8226-45bb-8177-fcc055ea250b">
+                    <input type="checkbox" name="botcheck" style="display: none;">
 
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    
-    <button type="submit">Send Message</button>
-    <p id="result" style="margin-top: 15px; font-size: 0.9rem; text-align: center; display: none;"></p>
-</form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                    <p id="result" style="margin-top: 15px; font-size: 0.9rem; text-align: center; display: none;"></p>
+                </form>
             </div>
         </section>
     </main>
@@ -290,6 +282,8 @@
     <footer>
         MADE BY MIT JAIN © 2025
     </footer>
+
+    <button id="backToTop" class="back-to-top">↑</button>
 
     <script src="script.js"></script>
 </body>
