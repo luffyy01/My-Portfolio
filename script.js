@@ -36,10 +36,7 @@ window.addEventListener('resize', function() {
     }
 });
 
-document.querySelector('.contact-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Message sent! (Demo)');
-});
+
 
 
 const contactForm = document.getElementById('contact-form');
