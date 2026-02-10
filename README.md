@@ -64,5 +64,5 @@ This project is open-source under the MIT License.
 
 ---
 
-*Last updated: December 29, 2025*  
+
 [Live Demo](https://mitjain.vercel.app/) 
