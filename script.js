@@ -40,3 +40,49 @@ document.querySelector('.contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Message sent! (Demo)');
 });
+
+
+const contactForm = document.getElementById('contact-form');
+const resultDisplay = document.getElementById('result');
+
+contactForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const formData = new FormData(contactForm);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    resultDisplay.style.display = "block";
+    resultDisplay.innerHTML = "Sending...";
+    resultDisplay.style.color = "#ffffff";
+
+    fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: json
+        })
+        .then(async (response) => {
+            let json = await response.json();
+            if (response.status == 200) {
+                resultDisplay.innerHTML = "Message sent successfully!";
+                resultDisplay.style.color = "#4ade80";
+                contactForm.reset();
+            } else {
+                console.log(response);
+                resultDisplay.innerHTML = json.message;
+                resultDisplay.style.color = "#ef4444";
+            }
+        })
+        .catch(error => {
+            console.log(error);
+            resultDisplay.innerHTML = "Something went wrong!";
+            resultDisplay.style.color = "#ef4444";
+        })
+        .then(function() {
+            setTimeout(() => {
+                resultDisplay.style.display = "none";
+            }, 5000);
+        });
+});
