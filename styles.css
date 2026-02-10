@@ -23,6 +23,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     background: var(--bg-void);
     color: var(--text-main);
@@ -116,28 +117,29 @@ body {
 
 .orb-1 {
     position: fixed;
-    top: -10%;
-    left: -10%;
-    width: 70vw;
-    height: 70vw;
-    background: radial-gradient(circle, rgba(139, 92, 246, 0.08), transparent 70%);
-    filter: blur(80px);
+    top: -15%;
+    left: -15%;
+    width: 900px;
+    height: 900px;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+    filter: blur(120px);
     z-index: -2;
-    animation: float 15s infinite ease-in-out alternate;
+    animation: float 20s infinite ease-in-out alternate;
+    pointer-events: none;
 }
 
 .orb-2 {
     position: fixed;
-    bottom: -10%;
-    right: -10%;
-    width: 60vw;
-    height: 60vw;
-    background: radial-gradient(circle, rgba(6, 182, 212, 0.05), transparent 70%);
-    filter: blur(80px);
+    bottom: -15%;
+    right: -15%;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle, rgba(6, 182, 212, 0.1) 0%, transparent 70%);
+    filter: blur(120px);
     z-index: -2;
-    animation: float 20s infinite ease-in-out alternate-reverse;
+    animation: float 25s infinite ease-in-out alternate-reverse;
+    pointer-events: none;
 }
-
 @keyframes float {
     0% { transform: translate(0, 0); }
     100% { transform: translate(30px, 30px); }
